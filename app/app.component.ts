@@ -7,6 +7,7 @@ import { Animal } from './animal.model';
   <div class="container">
     <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
     <edit-animal [childSelectedAnimal]="selectedAnimal" (finishedEditingSender)="finishedEditing()"></edit-animal>
+    <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
   </div>
   `
 })
@@ -29,5 +30,7 @@ export class AppComponent {
   finishedEditing(){
     this.selectedAnimal = null;
   }
-
+  addAnimal(newAnimal: Animal){
+    this.masterAnimalList.push(newAnimal);
+  }
 }

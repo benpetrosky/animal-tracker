@@ -1,9 +1,12 @@
+# Animal-Tracker
+This README outlines the details of this angular2 application.  The app is designed so that a zoo can organize information about their animals.
+
 ## Planning
 
 1. Configuration/dependencies
-  * This should include ALL dependencies.
-  * It should also include WHERE they are defined and used in the project
-  * It could include a short description of what each does for you
+  * Dependencies include: Bower, Gulp, and bootstrap
+  * These Dependencies are defined in the package.json and bower.json
+
 
 2. Specs
   * Spec 1:
@@ -68,7 +71,24 @@
   * Allow user to add an image of the animal, and display it with the rest of the animals details.
   * Make README awesome
 
+##Prerequisites
+You will need the following things properly installed on your computer
 
+  * Git
+  * Node.js (with NPM)
+  * Bower
+  * Angular2
 
+## Installation and Deployment
+ * git clone this repository
+ * cd Animal-Tracker
+ * bower Initial
+ * bower install bootstrap --Save
+ * gulp build
+ * gulp serve
+ * go to the localhost given to you in the command line in the browser of your choice.
 
-I want to view a list of animals I have logged.
+## Licensing
+This software is licensed under MIT licensing.
+
+Copyright (c) 2017 Benjamin Petrosky 

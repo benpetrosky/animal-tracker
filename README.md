@@ -65,6 +65,7 @@
   * Add to custom styling
   * Delete unused or redundant code.
   * Provide limited options for limited input fields. ie checkboxes/radio buttons  
+  * Allow user to add an image of the animal, and display it with the rest of the animals details.
   * Make README awesome
 
 

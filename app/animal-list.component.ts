@@ -6,9 +6,9 @@ import { Animal } from './animal.model'
   template: `
 
   <ul>
-    <li *ngFor="let currentAnimal of childAnimalList">{{currentAnimal.name}}<button (click)="editButtonHasbeenClicked(currentAnimal)">
+    <li *ngFor="let currentAnimal of childAnimalList">{{currentAnimal.name}} is a {{currentAnimal.age}} year old {{currentAnimal.sex}} {{currentAnimal.species}} that enjoys {{currentAnimal.likes}}, and does not like {{currentAnimal.dislikes}}. {{currentAnimal.name}} eats {{currentAnimal.diet}}. You can find {{currentAnimal.name}} in the {{currentAnimal.location}} exhibit.<button (click)="editButtonHasbeenClicked(currentAnimal)">
     Edit</button>
-
+    <hr>
     </li>
   </ul>
 
